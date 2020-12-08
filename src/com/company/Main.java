@@ -57,9 +57,9 @@ public class Main {
         Xiaomi.battery = 4180;
         Xiaomi.touchpad = "IPS";
 
-        System.out.println(iPhone.name + ": RAM: " + iPhone.ram + " ROM: " + iPhone.rom + " Camera: " + iPhone.camera + " mpx CPU: " + iPhone.cpu + " Battery: " + iPhone.battery + "mah Touchpad: " + iPhone.touchpad);
-        System.out.println(Samsung.name + ": RAM: " + Samsung.ram + " ROM: " + Samsung.rom + " Camera: " + Samsung.camera + " mpx CPU: " + Samsung.cpu + " Battery: " + Samsung.battery + "mah Touchpad: " + Samsung.touchpad);
-        System.out.println(iPhone.name + ": RAM: " + Xiaomi.ram + " ROM: " + Xiaomi.rom + " Camera: " + Xiaomi.camera + " mpx CPU: " + Xiaomi.cpu + " Battery: " + Xiaomi.battery + "mah Touchpad: " + Xiaomi.touchpad);
+        System.out.println(iPhone.name + ": \nRAM: " + iPhone.ram + "\nROM: " + iPhone.rom + "\nCamera: " + iPhone.camera + "mpx \nCPU: " + iPhone.cpu + " \nBattery: " + iPhone.battery + "mah \nTouchpad: " + iPhone.touchpad);
+        System.out.println(Samsung.name + ": \nRAM: " + Samsung.ram + "\nROM: " + Samsung.rom + "\nCamera: " + Samsung.camera + " mpx \nCPU: " + Samsung.cpu + " \nBattery: " + Samsung.battery + "mah \nTouchpad: " + Samsung.touchpad);
+        System.out.println(Xiaomi.name + ": \nRAM: " + Xiaomi.ram + " \nROM: " + Xiaomi.rom + " \nCamera: " + Xiaomi.camera + " mpx \nCPU: " + Xiaomi.cpu + " \nBattery: " + Xiaomi.battery + "mah \nTouchpad: " + Xiaomi.touchpad);
 
     }
 }
